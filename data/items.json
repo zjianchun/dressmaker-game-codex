@@ -1,0 +1,133 @@
+[
+  {
+    "slug": "cutting-table",
+    "name": "Cutting Table",
+    "role": "Fabric Preparation Station",
+    "category": "Workshop Equipment",
+    "schema_type": "CraftingStation",
+    "description": "The central atelier station where fabric bolts are unfurled, paper patterns are arranged along the grain, and precision shears cut out structural dress components.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Official Steam store description and developer gameplay mechanics (Free Lives / Cozy Lives)",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p>The <strong>Cutting Table</strong> is the fundamental workstation in <em>Dressmaker</em> where yardage is prepared. Players lay down digital or paper pattern pieces over bolts of cloth. The grain line arrows (pointing horizontally left/right) must be aligned until a <strong>green outline</strong> confirms correct orientation, preventing quality score caps. Players arrange pattern pieces efficiently to minimize fabric waste just like in a real studio.</p>\n<h2>Tactical Application</h2>\n<p>Always place your largest structural panels—such as full skirts and front bodices—first, then tuck smaller sleeves, collars, and cuffs into the negative spaces like a game of Tetris to minimize fabric waste.</p>",
+    "stats": {
+      "Type": "Atelier Workstation",
+      "Confirmed": "Pattern nesting, grain-line orientation, green outline feedback",
+      "Efficiency Target": "Zero wasted yardage"
+    }
+  },
+  {
+    "slug": "sewing-machine",
+    "name": "Sewing Machine",
+    "role": "Garment Assembly Station",
+    "category": "Workshop Equipment",
+    "schema_type": "CraftingStation",
+    "description": "The high-precision assembly station where cut panels are pinned, aligned, and stitched together along dotted guide lines to produce a finished wearable garment.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Official Steam store page and developer patch notes (Free Lives / Cozy Lives)",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p>The <strong>Sewing Machine</strong> controls the stitch quality evaluation. Players guide the assembled panels under the needle following dotted seam lines (Space to sew forward, A/D to rotate fabric, W/S to adjust needle speed). Sewing accuracy directly dictates the final 100% Quality Score. The game provides a <strong>Sewing Assist</strong> toggle in the settings menu to constrain needle drift around tight corners, and Build 410 added thread spool selection to change thread colour.</p>\n<h2>Tactical Application</h2>\n<p>Decelerate needle feed before reaching curves and sharp corners. Rushing through seams creates drift errors that penalize final client appraisal scores.</p>",
+    "stats": {
+      "Type": "Assembly Machine",
+      "Confirmed": "Manual feed, needle speed control, Sewing Assist toggle, thread spool picker",
+      "Quality Max": "100% Score"
+    }
+  },
+  {
+    "slug": "sketchbook-drafting-desk",
+    "name": "Sketchbook Drafting Desk",
+    "role": "Design & Blueprint Station",
+    "category": "Design Tools",
+    "schema_type": "CraftingStation",
+    "description": "The atelier planning desk where dress designs are conceptualized, coloured, and personalized before cutting out fabric.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Official Steam store announcement and Prototype 0.5.5 documentation",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p>The <strong>Sketchbook</strong> allows players to design and colour dresses, combining silhouette elements like bodices, sleeves, and skirts while applying fabric samples and decorative appliqué before cutting.</p>\n<h2>Tactical Application</h2>\n<p>Use the sketchbook to explore silhouette combinations that fulfill the client's event and personal preferences. Test out palette harmonies with fabric samples before moving to the cutting table.</p>",
+    "stats": {
+      "Type": "Planning Interface",
+      "Confirmed": "Silhouette combination, fabric sample testing, colour design",
+      "Function": "Creative pre-cutting design"
+    }
+  },
+  {
+    "slug": "mannequin-display",
+    "name": "Mannequin Display Stand",
+    "role": "Fitting & Retail Presentation",
+    "category": "Display Furniture",
+    "schema_type": "RetailFixture",
+    "description": "A dressmaker form used to preview cut pattern pieces, fit completed garments for customers, and display ready-to-wear dresses for off-the-rack sales.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Official Steam store description (Free Lives / Cozy Lives)",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p>The <strong>Mannequin Display</strong> acts as the fitting and preview checkpoint. Cut patterns can be draped on the mannequin before sewing, and finished dresses can be inspected before customer delivery. Pre-made designs can also be displayed in your shop window and sold off-the-rack for coin and reputation.</p>\n<h2>Tactical Application</h2>\n<p>Inspect button and trim alignment from multiple angles before handing off the garment. Ensure accessories match client preferences or create striking display pieces for your storefront.</p>",
+    "stats": {
+      "Type": "Display & Preview",
+      "Confirmed": "Pre-sewing pattern preview, final fit inspection, off-the-rack sales",
+      "Revenue Stream": "Commission handoff & retail display"
+    }
+  },
+  {
+    "slug": "cotton-bolt",
+    "name": "Cotton Textile Bolt",
+    "role": "Fundamental Daywear Textile",
+    "category": "Fabrics",
+    "schema_type": "Material",
+    "description": "A reliable, versatile plain-weave natural textile with moderate drape and high tear resistance, suitable for daywear and everyday commissions.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Developer press kit and gameplay material manifests (Cozy Lives)",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p><strong>Cotton</strong> represents the baseline commercial textile in <em>Dressmaker</em>. It is cost-effective, easy to cut along the grain with clear horizontal alignment, and universally accepted for casual, domestic, and everyday client orders.</p>\n<h2>Tactical Application</h2>\n<p>Use cotton for early commissions when working capital is tight. Remember during the tutorial to reserve funds for required accessories rather than spending all coin on fabric bolts.</p>",
+    "stats": {
+      "Material": "100% Natural Cotton",
+      "Category": "Casual / Everyday",
+      "Drape": "Moderate",
+      "Slippage": "Low"
+    }
+  },
+  {
+    "slug": "linen-textile",
+    "name": "Linen Textile Bolt",
+    "role": "Breathable Summer Textile",
+    "category": "Fabrics",
+    "schema_type": "Material",
+    "description": "A structured, breathable flax textile characterized by distinct grain lines and crisp folding behavior, highly valued for outdoor and relaxed briefs.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Developer press kit and gameplay material manifests (Cozy Lives)",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p><strong>Linen</strong> features pronounced grain lines that make horizontal alignment visually clear on the cutting table. Rotating the piece until the green outline appears ensures a 100% quality rating.</p>\n<h2>Tactical Application</h2>\n<p>Ideal for client briefs specifying lightweight, summer, or relaxed styles. Follow the dotted seam lines steadily and decelerate around curved hemlines.</p>",
+    "stats": {
+      "Material": "Woven Flax Linen",
+      "Category": "Casual / Summer",
+      "Grain Visibility": "High",
+      "Crease Retention": "High"
+    }
+  },
+  {
+    "slug": "silk-charmeuse",
+    "name": "Silk Charmeuse Bolt",
+    "role": "Luxury Evening Textile",
+    "category": "Fabrics",
+    "schema_type": "Material",
+    "description": "A high-luster, fluidly draping luxury textile reserved for high-stakes formal and celebratory event commissions.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Developer press kit and official Steam screenshots (Free Lives / Cozy Lives)",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p><strong>Silk</strong> is one of the five core confirmed fabric types (alongside cotton, linen, wool, and velvet). It carries high aesthetic value in the atelier catalog, providing fluid drape and refined sheen.</p>\n<h2>Tactical Application</h2>\n<p>Recommended for formal evening wear and celebratory event dresses. Enable Sewing Assist in settings if needle drift occurs on long sweeping seams.</p>",
+    "stats": {
+      "Material": "Natural Silk",
+      "Category": "Formal / Luxury",
+      "Luster": "High Sheen",
+      "Prestige Tier": "High Tier"
+    }
+  },
+  {
+    "slug": "lace-trim",
+    "name": "Lace Trim & Edging",
+    "role": "Delicate Decorative Accent",
+    "category": "Trims & Accessories",
+    "schema_type": "MaterialModifier",
+    "description": "Intricate openwork lace used to edge hems, cuffs, and necklines, fulfilling specific decorative and client accent requests.",
+    "image": "/games/dressmaker/assets/hero-banner.webp",
+    "source": "Official Steam store description and gameplay materials",
+    "body": "<h2>What Official Sources Confirm</h2>\n<p>Decorations in <em>Dressmaker</em> include buttons, bows, appliqué, and lace trims, which can be placed wherever players like with complete creative freedom.</p>\n<h2>Tactical Application</h2>\n<p>Carefully align lace borders along curved hems and necklines. In the tutorial, ensure you budget enough coin to purchase required trim pieces before cutting.</p>",
+    "stats": {
+      "Type": "Accessory Trim",
+      "Application": "Hems, Cuffs, Collars",
+      "Placement": "Full Creative Freedom"
+    }
+  }
+]
